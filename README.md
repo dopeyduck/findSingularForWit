@@ -3,7 +3,7 @@ Input a witness and a collation file location and find all variation units where
 
 In the terminal
 1) navegate to the script's directory on the hard drive. I keep mine in the same directory as the collation file. This is not necessary as you can provide a location for the collation file when prompted.
-2) enter ```python3 -m findSingularForWit```    
+2) enter ```python3 -m findSingularForWit``` N.B. You may need to leave the .py extention off for the script to run properly.
 3) The script will prompt you to enter a witness, e.g., ```Please enter witnesses: 1735```
 4) The script will then promot you to enter the location of your collation file. For me, this is just its name since the script and the collation are in the same directory. Note that the collation file should be a TEI compliant XML file.
    ```Please enter the path of the XML file: ecmCatFinal.xml```
